@@ -79,7 +79,7 @@ if (contactForm) {
         };
         
         // Send email via EmailJS
-        emailjs.send('service_d9lar9g', 'template_22rf64j', templateParams)
+        emailjs.send('service_d9lar9g', 'template_30bddeg', templateParams)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 alert('Thank you for your message! We will get back to you soon.');
